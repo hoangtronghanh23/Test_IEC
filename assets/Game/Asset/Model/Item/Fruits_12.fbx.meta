@@ -1,0 +1,100 @@
+{
+  "ver": "2.3.14",
+  "importer": "fbx",
+  "imported": true,
+  "uuid": "c168bddd-8e14-4dc5-be5c-3193e9e42fa6",
+  "files": [],
+  "subMetas": {
+    "38103": {
+      "importer": "gltf-scene",
+      "uuid": "c168bddd-8e14-4dc5-be5c-3193e9e42fa6@38103",
+      "displayName": "",
+      "id": "38103",
+      "name": "Fruits_12.prefab",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "7aff3": {
+      "importer": "gltf-mesh",
+      "uuid": "c168bddd-8e14-4dc5-be5c-3193e9e42fa6@7aff3",
+      "displayName": "",
+      "id": "7aff3",
+      "name": "Fruits_12.mesh",
+      "userData": {
+        "gltfIndex": 0,
+        "triangleCount": 112
+      },
+      "ver": "1.1.1",
+      "imported": true,
+      "files": [
+        ".bin",
+        ".json"
+      ],
+      "subMetas": {}
+    },
+    "aa825": {
+      "importer": "gltf-material",
+      "uuid": "c168bddd-8e14-4dc5-be5c-3193e9e42fa6@aa825",
+      "displayName": "",
+      "id": "aa825",
+      "name": "lambert4.material",
+      "userData": {
+        "gltfIndex": 0
+      },
+      "ver": "1.0.14",
+      "imported": true,
+      "files": [
+        ".json"
+      ],
+      "subMetas": {}
+    }
+  },
+  "userData": {
+    "imageMetas": [],
+    "fbx": {
+      "smartMaterialEnabled": true
+    },
+    "lods": {
+      "enable": false,
+      "hasBuiltinLOD": false,
+      "options": [
+        {
+          "screenRatio": 0.25,
+          "faceCount": 1
+        },
+        {
+          "screenRatio": 0.125,
+          "faceCount": 0.25
+        },
+        {
+          "screenRatio": 0.01,
+          "faceCount": 0.1
+        }
+      ]
+    },
+    "assetFinder": {
+      "meshes": [
+        "c168bddd-8e14-4dc5-be5c-3193e9e42fa6@7aff3"
+      ],
+      "skeletons": [],
+      "textures": [],
+      "materials": [
+        "c168bddd-8e14-4dc5-be5c-3193e9e42fa6@aa825"
+      ],
+      "scenes": [
+        "c168bddd-8e14-4dc5-be5c-3193e9e42fa6@38103"
+      ]
+    },
+    "meshCompress": {
+      "enable": true,
+      "compress": true
+    }
+  }
+}
