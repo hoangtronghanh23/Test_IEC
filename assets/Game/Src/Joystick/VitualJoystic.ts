@@ -13,9 +13,6 @@ export class VirtualJoystic extends Component implements IInput {
     #defaultPosition: Vec2 = new Vec2();
     private isDragging = false;
 
-    @property(Node)
-    BGM : Node = null;
-
     onLoad() {
         this.init();
     }

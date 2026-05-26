@@ -107,7 +107,6 @@ export class ControlHole extends Component {
     public fillCircleStep(sprite: Sprite, step: number) {
         const targetFill = this.currentFill - step;
 
-        // Nếu đã đạt tới ngưỡng
         if (targetFill <= -0.99) {
             this.currentFill = 0;
             this.Ring.active = true;
@@ -115,7 +114,6 @@ export class ControlHole extends Component {
             this.currentScale = this.currentScale.clone().add(new Vec3(0.04, 0.04, 0.04));
             this.AnimScale();
 
-            // Tween từ currentFill đến 0 (reset)
             tween(sprite)
                 .to(0.3, { fillRange: 0 }, {
                     onUpdate: (target: Sprite) => {

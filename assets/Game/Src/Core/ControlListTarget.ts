@@ -30,7 +30,6 @@ export class ControlListTarget extends Component {
             ControlUI.instance.fireWork.active = true;
 
             this.scheduleOnce(() => {
-                ControlUI.instance.playNow.active = false;
                 ControlUI.instance.popUpEnd.active = true;
                 ControlUI.instance.textTut.active = false;
             },1)

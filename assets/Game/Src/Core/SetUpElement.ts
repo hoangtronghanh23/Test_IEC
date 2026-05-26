@@ -141,8 +141,11 @@ export class SetUpElement extends Component {
     private _onTriggerStay1 (event: ITriggerEvent) {
         if (event.otherCollider.getComponent(Item)) {
             if (event.otherCollider.attachedRigidBody) {
-                event.otherCollider.attachedRigidBody.isKinematic = false;
-                event.otherCollider.attachedRigidBody.useGravity = true;
+                const rb = event.otherCollider.attachedRigidBody;
+                rb.isKinematic = false;
+                rb.useGravity = true;
+                rb.clearState();
+                rb.wakeUp();
 
                 const wp = event.otherCollider.node.worldPosition;
                 _ime.x = wp.x - this.roleNode.worldPosition.x;
